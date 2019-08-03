@@ -1,0 +1,85 @@
+.containerBox {
+    position: relative;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.notiimg {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-top: 5px;
+   // margin-right: 5px;
+    cursor: pointer;
+}
+
+.oval {
+    width: 8px;
+    height: 8px;
+    //border: solid 1px #ffffff;
+    background-color: #de3618;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: auto;
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+
+.titlebar {
+    //width: 318px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #f4f6f8;
+}
+
+.title {
+    //width: 158.8px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.dropdown {
+    right: 0px;
+    max-height: 312px;
+    overflow: auto;
+}
+
+
+@media (max-width: 960px) {
+    .textEllipsis {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 400px;
+    }
+
+    .dropdown {
+        right: 0px;
+        overflow: auto;
+        max-height: 286px;
+    }
+}
+
+@media (max-width: 640px) {
+    .textEllipsis {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 210px;
+    }
+
+    .dropdown {
+        right: 0px;
+        overflow: auto;
+        max-height: 286x;
+    }
+}

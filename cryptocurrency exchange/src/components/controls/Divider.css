@@ -1,0 +1,11 @@
+.root {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.line {
+  flex: 1 1 auto;
+  min-width: 1px;
+  min-height: 1px;
+  flex-shrink: 0;
+}

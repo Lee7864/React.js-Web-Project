@@ -1,0 +1,157 @@
+.root {
+  display: inline-block;
+  cursor: default;
+  font-size: 14px/1.5em;
+  min-height: 1.5em;
+  margin: -4px 0 -5px 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  flex-shrink: 0;
+}
+
+.font-size-tiny {
+  font-size: 10px;
+  margin: -2px 0 -2px 0;
+}
+
+.font-size-xsmall {
+  font-size: 12px;
+  margin: -3px 0 -3px 0;
+}
+
+.font-size-small {
+  font-size: 14px;
+}
+
+.font-size-small-medium {
+  font-size: 16px;
+}
+
+.font-size-small-medium-more {
+  font-size: 20px;
+}
+
+.font-size-medium {
+  font-size: 24px;
+  margin: -7px 0 -9px 0;
+}
+
+.font-size-large {
+  font-size: 30px;
+}
+
+.font-size-xlarge {
+  font-size: 36px;
+}
+
+.font-size-huge {
+  font-size: 48px;
+}
+
+.font-size-home-title {
+  font-size: 74px;
+}
+
+.font-weight-normal {
+  font-weight: 400;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-semibold {
+  font-weight: 500;
+}
+
+.font-weight-light {
+  font-weight: 100;
+}
+
+.font-weight-semi-light {
+  font-weight: 300;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-color-black {
+  color: #000000;
+}
+
+.text-color-up-red {
+  color: #DF0000;
+}
+
+.text-color-down-blue {
+  color: #0000DF;
+}
+
+.text-color-light-gray {
+  color: #D8D8D8;
+}
+
+.text-color-gray {
+  color: #BFBFBF;
+}
+
+.text-color-disabled {
+  color: #cccccc;
+}
+
+.text-color-light-blue {
+  color: #5c6ac4;
+}
+
+.text-color-green {
+  color: #25c38c;
+}
+
+.text-color-iris {
+  color: #5c6ac4;
+}
+
+.text-color-grass {
+  color: #50b83c;
+}
+
+.text-color-dark-gray {
+  color: #5F5F5F;
+}
+
+.text-color-dark-blue-grey {
+  color: #212b36;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.letter-spacing-m1 {
+    letter-spacing: -0.1px;
+}
+
+.letter-spacing-m2 {
+  letter-spacing: -0.2px;
+}
+
+.letter-spacing-p4 {
+  letter-spacing: 0.4px;
+}
+
+.text-word-wrap-normal {
+  word-wrap: normal;
+}
+
+.text-word-wrap-break {
+  word-wrap: break-word;
+}
+
+.text-word-break-break-all {
+  word-break: break-all;
+}

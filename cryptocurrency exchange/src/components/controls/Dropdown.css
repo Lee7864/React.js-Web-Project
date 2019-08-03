@@ -1,0 +1,17 @@
+.items {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+.items:not(.visible) {
+    display: none;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #dfe3e8;
+}

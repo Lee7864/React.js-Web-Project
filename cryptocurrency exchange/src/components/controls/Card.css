@@ -1,0 +1,24 @@
+.root {
+  xwidth: 100%;
+  xflex: 1;
+  min-width: 250px;
+  xmin-height: 350px;
+  xmax-width: 460px;
+  xborder: 0.001em solid #c4cdd5;
+  xbox-shadow: inset 0 0 0 0.5px hsla(0, 0%, 0%, 0.2);
+  xmargin: 0 -1px;
+  margin: 8px 0 0 8px;
+  overflow: auto;
+}
+
+/* x@media (max-width: calc(1280px + 40px)) {
+  .root {
+    max-width: 33.33333%;
+  }
+}
+
+x@media (max-width: 960px) {
+  .root {
+    max-width: 50%;
+  }
+} */

@@ -1,0 +1,70 @@
+.title {
+    font-size: 48px;
+}
+
+.toparea {
+    flex: 1;
+    flex-direction: row;
+}
+
+.topinfo {
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topinfoAvaiableTitle {
+    font-size: 12px;
+    color: #212b36;
+}
+
+.topinfoAvaiableValue {
+    font-size: 16px;
+    font-weight: bold;
+    color: #212b36;
+}
+
+.topinfoFrozenTitle {
+    font-size: 12px;
+    color: #212b36;
+}
+
+.topinfoFrozenValue {
+    font-size: 16px;
+    color: #5c6ac4;
+}
+
+.topbuttons {
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width: 640px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .toparea {
+        flex-direction: column;
+    }
+
+    .topinfo {
+        flex-direction: column;
+    }
+
+    .topinfoAvaiableTitle {
+        font-size: 10px;
+    }
+
+    .topinfoAvaiableValue {
+        font-size: 14px;
+    }
+
+    .topinfoFrozenTitle {
+        font-size: 10px;
+    }
+
+    .topinfoFrozenValue {
+        font-size: 14px;
+    }
+}

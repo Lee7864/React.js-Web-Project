@@ -1,0 +1,21 @@
+
+.button * {
+    cursor: pointer;
+}
+
+.dontshrink {
+    flex-shrink: 0;
+}
+
+.padding {
+    padding: 24px;
+}
+
+@media (max-width: 640px) {
+    .padding {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

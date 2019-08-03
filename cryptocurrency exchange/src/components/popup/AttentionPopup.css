@@ -1,0 +1,39 @@
+.attPopup {
+    width: 90%;
+    max-width: 580px;
+    min-height: 450px;
+    max-height: 677px;
+}
+
+.attPopuptitle {
+    font-size: 24px;
+}
+
+.attPopuptext {
+    font-size: 14px;
+}
+
+.attPopupbutton {
+    width: 160px;
+    min-width: 60px;
+    height: 44px;
+}
+
+
+@media (max-width: 450px) {
+    .attPopup {
+        max-height: 75%;
+    }
+
+    .attPopuptitle {
+        font-size: 18px;
+    }
+
+    .attPopuptext {
+        font-size: 12px;
+    }
+
+    .attPopupbutton {
+        height: 36px;
+    }
+}

@@ -1,0 +1,88 @@
+.root {
+  font-size: 14px/1.5em;
+  height: 36px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+}
+
+.root::placeholder {
+  color: #919eab;
+
+}
+
+.border-color-light-gray {
+  border-color: #dfe3e8;
+}
+
+.border-color-gray {
+  border-color: #818181;
+}
+
+.border-color-up-red {
+  border-color: #de3618;
+}
+
+.border-color-down-blue {
+  border-color: #4373b9;
+}
+
+.border-thin {
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+.border-normal {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.border-thick {
+  border-style: solid;
+  border-width: 2px;
+}
+
+.message-color-normal {
+  color: #9b9b9b;
+}
+
+.message-color-error {
+  color: #de3618;
+}
+
+.icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-checked {
+  background:url('/images/checked.png') center no-repeat;
+  background-size: 14px 12px;
+  top: 12px;
+  right: 12px;
+  width: 14px;
+  height: 12px;
+}
+
+.icon-secured-focused {
+  background:url('/images/lock.png') center no-repeat;
+  background-size: 20px 20px;
+}
+
+.icon-secured {
+  background:url('/images/lock.png') center no-repeat;
+  background-size: 20px 20px;
+  opacity: 0.4;
+}
+
+.innerText {
+  position: absolute;
+  top: 14px;
+  right: 11px;
+  text-align: right;
+  font-size: 12px;
+  color: #de3618;
+}

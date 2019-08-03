@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="463" viewBox="0 0 1440 463">
+    <defs>
+        <path id="a" d="M0 0h1440v463H0z"/>
+        <path id="c" d="M-23 0h1440v463H-23z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="url(#b)" fill-rule="nonzero" xlink:href="#a"/>
+        <mask id="d" fill="#fff">
+            <use xlink:href="#c"/>
+        </mask>
+        <g mask="url(#d)" opacity=".123">
+            <path fill="#DFE3E8" d="M46 437h23v38H46zM276 346h23v46h-23zM432 357h23v38h-23zM737 354h23v30h-23zM851 311h23v23h-23zM813 276h23v49h-23zM1157-36h23v136h-23zM1040 96h23v136h-23zM1425-182h23v284h-23zM318 376h23v75h-23zM465 308h23v151h-23z"/>
+            <path stroke="#DFE3E8" stroke-linecap="square" d="M750.5 321.083v114.854M864.5 249.085v99.83M823.5 243.096v122.827M1166.5 127.899V-32.9M1049.5 260.899V100.1M1435.5-192.915v266.83M478.5 299.077v178.846M327.5 326.16v154.758M59.5 420.215v86.573M176.5 246.177v176.646M445.5 340.18v52.72M290.5 336.122v59.754"/>
+            <path fill="#DFE3E8" d="M163 320h23v91h-23z"/>
+            <path fill="#FFF" d="M84 399h23v75H84zM204 401h23v46h-23zM234 349h23v38h-23zM352 358h23v30h-23zM507 330h23v23h-23zM700 354h23v19h-23zM545 372h23v26h-23zM620 399h23v26h-23zM582 339h23v114h-23zM658 335h23v95h-23zM927 151h23v215h-23zM775 324h23v91h-23zM969 201h23v121h-23zM1002 185h23v72h-23zM1232 36h23v72h-23zM1270 54h23v60h-23zM1347 106h23v60h-23z"/>
+            <path fill="#DFE3E8" d="M1388-66h23v174h-23zM1308-63h23v174h-23z"/>
+            <path fill="#FFF" d="M1191 110h23v49h-23zM1078 85h23v70h-23zM1119 79h23v30h-23zM889 258h23v60h-23zM390 337h23v15h-23zM121 355h23v204h-23z"/>
+            <path stroke="#FFF" stroke-linecap="square" d="M554.5 363.109v49.831M516.5 340.06v50.88M403.5 295.059v68.831M248.5 309.059v68.831M214.5 333.094v136.723M96.5 374.094v136.723M134.5 318.08v268.763M365.5 273.104v113.694M709.5 298.09v69.853M633.5 370.071v72.858M592.5 344.095v205.822M667.5 302.082v129.836M940.139 129.2v234.514M784.5 302.08v133.858M977.139 175.299V333.42M1014.5 274.896V171.08M1242.5-15.923v137.846M1283.5 36.059v68.831M1360.5 183.889v-77.81"/>
+            <path stroke="#DFE3E8" stroke-linecap="square" d="M1401.5-94.913v273.826M1321.5-90.913v273.826"/>
+            <path stroke="#FFF" stroke-linecap="square" d="M1204.5 84.085v99.83M1086.5 54.082v103.836M1128.5 53.096v54.808M898.5 229.1v129.819"/>
+        </g>
+    </g>
+</svg>

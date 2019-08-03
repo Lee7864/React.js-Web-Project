@@ -1,0 +1,78 @@
+.addressPopup {
+    width: 320px;
+    height: 555px;
+    background-color: #ffffff;
+}
+
+.addressTitle {
+    width: 100%;
+    height: 44px;
+    background-color: #f4f6f8;
+    flex-shrink: 0;
+}
+
+.addressTitleText {
+    height: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    color: #000000;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+}
+
+.addressBody {
+    font-size: 12px;
+    padding-top: 19px;
+    padding-left: 9px;
+    padding-right: 11px;
+    flex-shrink: 0;
+}
+
+.agreeTitle {
+    height: 16px;
+    color: #2b2a3a;
+}
+
+.agreeText {
+    width: 296px;
+    height: 102px;
+    background-color: #f9fafb;
+    color: #2b2a3a;
+}
+
+.agreeCheck {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 2px;
+}
+
+.addressButtontext {
+    font-size: 15px;
+}
+
+.addressButtontext14 {
+    font-size: 14px;
+}
+
+
+@media (max-width: 450px) {
+    .addressPopup {
+        height: 400px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 740px) {
+    .addressPopup {
+        height: 350px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+
+.collapse {
+    height: 100%;
+    background-color: white;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 80px;
+    bottom: 0;
+    z-index: 20;
+    position: fixed;
+    animation-name: menu_appearance;
+    animation-duration: 400ms;
+    animation-iteration-count: 1;
+    overflow-y: auto;
+}
+
+.dontshrink {
+    flex-shrink: 0;
+}
+
+@keyframes menu_appearance {
+    0%  {opacity: 0; left: -200px; right: 280px;}
+    100%  {opacity: 1; left: 0; right: 80px;}
+}
+
+.mobile_sign_up {
+    border-radius: 2px;
+    box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.1), inset 0 1px 0 1px rgba(255, 255, 255, 0.06);
+    background-image: linear-gradient(to bottom, #606fc7, #5865c1);
+    cursor: pointer;
+}
+
+.collapse_background {
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+    z-index: 10;
+    position: fixed;
+}
+
+@media (max-width: 640px) {
+    .collapse_display_none {
+        display: none;
+    }
+
+    .collapse_display_block {
+        display: inline-block;
+        flex-shrink: 0;
+    }
+
+    .mobile_nav_icons {
+        display: flex;
+    }
+
+    .collapse {
+        height: 100%;
+        background-color: white;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        right: 80px;
+        bottom: 0;
+        z-index: 20;
+        position: fixed;
+        animation-name: menu_appearance;
+        animation-duration: 400ms;
+        animation-iteration-count: 1;
+        overflow-y: auto;
+    }
+
+    .collapse_menu {
+        color: black;
+        padding: 16px;
+        border-bottom: none;
+        background-color: transparent;
+        flex-shrink: 0;
+    }
+
+    .sub_menu {
+        color: #5c6ac4;
+        border-bottom: 4px solid;
+        flex-shrink: 0;
+    }
+
+    .sub_menu:not(.selected) {
+        color: #5c6ac4;
+        border-bottom: none;
+        flex-shrink: 0;
+    }
+
+    .collapse_background {
+        background-color: black;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.7;
+        z-index: 10;
+        position: fixed;
+    }
+
+    .mobile_title {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobile_divider {
+        display: flex;
+    }
+
+    .navigation_menu {
+        height: 0;
+    }
+}

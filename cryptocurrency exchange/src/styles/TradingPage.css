@@ -1,0 +1,12 @@
+
+.orders_item:hover {
+    background-color: #f3f4fa;
+}
+
+.orders_item:hover .cancel_button {
+    display: flex;
+}
+
+.orders_item .cancel_button {
+    display: none;
+}

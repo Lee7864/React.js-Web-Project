@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="37" viewBox="0 0 37 37">
+    <defs>
+        <path id="a" d="M3.655 18.273a14.53 14.53 0 0 1 3.084-8.948l20.482 20.481a14.534 14.534 0 0 1-8.948 3.085c-8.06 0-14.618-6.558-14.618-14.618m26.151 8.948L9.325 6.739a14.534 14.534 0 0 1 8.948-3.084c8.06 0 14.618 6.558 14.618 14.618a14.53 14.53 0 0 1-3.085 8.948M0 18.273c0 10.075 8.197 18.272 18.273 18.272 10.075 0 18.272-8.197 18.272-18.272C36.545 8.197 28.348 0 18.273 0 8.197 0 0 8.197 0 18.273"/>
+    </defs>
+    <g fill="#FFF" fill-rule="evenodd" transform="translate(0 .218)">
+        <text font-family="Roboto-Bold, Roboto" font-size="10.964" font-weight="bold" letter-spacing=".055" transform="rotate(-20 19.203 18.543)">
+            <tspan x="6.203" y="19.043">FEES</tspan>
+        </text>
+        <use xlink:href="#a"/>
+    </g>
+</svg>

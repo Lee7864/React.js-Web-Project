@@ -1,0 +1,672 @@
+.root {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: none;
+  xflex-shrink: 0;
+  min-height: 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.flex-fill {
+  flex: 1;
+}
+
+.flex-100 {
+  flex: 100;
+}
+
+.flex-60 {
+  flex: 6;
+}
+
+.flex-40 {
+  flex: 4;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-direction-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.flex-direction-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.padding-tiny {
+  padding: 4px;
+}
+
+.padding-xsmall {
+  padding: 8px;
+}
+
+.padding-small {
+  padding: 12px;
+}
+
+.padding-medium {
+  padding: 16px;
+}
+
+.padding-medium-large {
+  padding: 20px;
+}
+
+.padding-large{
+  padding: 24px;
+}
+
+.padding-xlarge {
+  padding: 30px;
+}
+
+.padding-huge {
+  padding: 40px;
+}
+
+.padding-horizontal-tiny {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.padding-horizontal-xsmall {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.padding-horizontal-small {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.padding-horizontal-medium {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.padding-horizontal-large {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.padding-horizontal-xlarge {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.padding-horizontal-huge {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.padding-vertical-tiny {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.padding-vertical-xsmall {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.padding-vertical-small {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.padding-vertical-medium {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.padding-vertical-large {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.padding-large {
+  padding: 24px;
+}
+
+.spacing-tiny {
+  min-width: 4px;
+  min-height: 4px;
+  align-self: stretch;
+}
+
+.spacing-xsmall {
+  min-width: 8px;
+  min-height: 8px;
+  align-self: stretch;
+}
+
+.spacing-small {
+  min-width: 12px;
+  min-height: 12px;
+  align-self: stretch;
+}
+
+.spacing-medium {
+  min-width: 16px;
+  min-height: 16px;
+  align-self: stretch;
+}
+
+.spacing-medium-large {
+  min-width: 20px;
+  min-height: 20px;
+  align-self: stretch;
+}
+
+.spacing-large {
+  min-width: 24px;
+  min-height: 24px;
+  align-self: stretch;
+}
+
+.spacing-xlarge {
+  min-width: 32px;
+  min-height: 32px;
+  align-self: stretch;
+}
+
+.spacing-huge {
+  min-width: 40px;
+  min-height: 40px;
+  align-self: stretch;
+}
+
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-flex-end {
+  align-items: flex-end;
+}
+
+.align-self-stretch {
+  align-self: stretch;
+}
+
+.align-self-start {
+  align-self: start;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.border-radius-small {
+  border-radius: 8px;
+}
+
+.border-radius-none {
+  border-radius: 0px;
+}
+
+.border-radius-xsmall {
+  border-radius: 4px;
+}
+
+.border-radius-tiny {
+  border-radius: 2px;
+}
+
+.border-radius-inherit {
+  border-radius: inherit;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.box-light-shadow {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.width-fill {
+  width: 100%;
+}
+
+.max-width-250 {
+  max-width: 250px;
+}
+
+.max-width-400 {
+  max-width: 400px;
+}
+
+.max-width-432 {
+  max-width: 432px;
+}
+
+.max-width-560 {
+  max-width: 560px;
+}
+
+.max-width-964 {
+  max-width: 964px;
+}
+
+.phone-only-shown {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .phone-vertical {
+    flex-direction: column;
+  }
+
+  .phone-only-shown {
+    display: flex;
+  }
+
+  .phone-hidden {
+    display: none;
+  }
+
+  .phone-padding-horizontal-none {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .phone-padding-horizontal-tiny {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .phone-padding-horizontal-xsmall {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .phone-padding-horizontal-small {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .phone-padding-horizontal-medium {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .phone-padding-vertical-none {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .phone-padding-vertical-tiny {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .phone-padding-vertical-xsmall {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .phone-padding-vertical-small {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .phone-padding-vertical-medium {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .tablet-padding-vertical-none {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .tablet-padding-vertical-tiny {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .tablet-padding-vertical-xsmall {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .tablet-padding-verticall-small {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .tablet-padding-vertical-medium {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+@media (max-width: 960px) {
+  .tablet-hidden {
+    display: none !important;
+  }
+
+  .tablet-flex-vertical {
+    flex-direction: column;
+  }
+
+  .tablet-flex-horizontal {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 359px) {
+  .phone-flex-horizontal {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 961px) {
+  .desktop-hidden {
+    display: none;
+  }
+}
+
+.background-color-light-gray {
+  background-color: #D8D8D8;
+}
+
+.background-color-red {
+  background-color: #de3618;
+}
+
+.background-color-light-blue {
+  background-color: #b3bcf5;
+}
+
+.background-color-down-blue {
+  background-color: #0000DF;
+}
+
+.background-color-disabled {
+  background-color: #f4f6f8;
+}
+
+.background-color-error {
+  background-color: #fff7f5;
+}
+
+.background-color-iris {
+  background-color: #5c6ac4;
+}
+
+.background-color-gray {
+  background-color: #BFBFBF;
+}
+
+.background-color-black {
+  background-color: #000000;
+}
+
+.background-color-deep-blue {
+  background-color: #000c5e;
+}
+
+.background-color-dark-gray {
+  background-color: #454f5b;
+}
+
+.background-color-dark-blue-grey {
+  background-color: #212b36;
+}
+
+.background-color-emerald {
+  background-color: #27d1c7;
+}
+
+.background-color-light-iris {
+  background-color: rgba(161, 170, 230, 0.4);
+}
+
+.background-color-pale-grey {
+  background-color: #f3f4fa
+}
+
+.background-color-sell-quantity-blue {
+  background-color: #EFF9FF;
+}
+
+.background-color-sell-price-blue {
+  background-color: #DBF1FE;
+}
+
+.background-color-sell-selected-price-blue {
+  background-color: #A1DCFF;
+}
+
+.background-color-buy-quantity-red {
+  background-color: #FFF5F2;
+}
+
+.background-color-buy-price-red {
+  background-color: #FBEAE5;
+}
+
+.background-color-buy-selected-price-red {
+  background-color: #FFC0AD;
+}
+
+.background-image-gradient-white {
+  background-image: linear-gradient(180deg, #ffffff, #f9fafb);
+}
+
+.background-image-gradient-iris {
+  background-image: linear-gradient(144deg, #606fc7, #000c5e);
+}
+
+.background-image-gradient-iris2 {
+  background-image: linear-gradient(180deg, #606fc7, #5865c1);
+}
+
+.background-image-gradient-iris3 {
+  background-image: linear-gradient(90deg, #606fc7, #000c5e);
+}
+
+.background-image-chart {
+  background-image: url('/images/home_chart.svg');
+}
+
+.border-color-white {
+  border-color: #ffffff;
+}
+
+.border-color-light-blue {
+  border-color: #b3bcf5;
+}
+
+.border-color-light-blue-gray {
+  border-color: #c4cdd5;
+}
+
+.border-color-up-red {
+    border-color: #DF0000;
+}
+
+.border-color-down-blue {
+  border-color: #0000DF;
+}
+
+.border-color-light-gray {
+  border-color: #D8D8D8;
+}
+
+.border-color-gray {
+  border-color: #BFBFBF;
+}
+
+.border-color-disabled {
+  border-color: #cccccc;
+}
+
+.border-color-iris {
+  border-color: #5c6ac4;
+}
+
+.border-color-sell-quantity-blue {
+  border-color: #EFF9FF;
+}
+
+.border-color-sell-price-blue {
+  border-color: #DBF1FE;
+}
+
+.border-color-sell-selected-price-blue {
+  border-color: #A1DCFF;
+}
+
+.border-color-buy-quantity-red {
+  border-color: #FFF5F2;
+}
+
+.border-color-buy-price-red {
+  border-color: #FBEAE5;
+}
+
+.border-color-buy-selected-price-red {
+  border-color: #FFC0AD;
+}
+
+.border-thin {
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+.border-normal {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.border-thick {
+  border-style: solid;
+  border-width: 2px;
+}
+
+.border-thicker {
+  border-style: solid;
+  border-width: 4px;
+}
+
+.border-type-bottom {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.border-type-top {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.border-type-right {
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+}
+
+.border-type-topbottom {
+  border-left: none;
+  border-right: none;
+}
+
+.border-none {
+  border: none;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.rotate-270 {
+  transform: rotate(270deg);
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-y {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.button * {
+  cursor: pointer;
+}
+
+.wrap {
+  flex-wrap : wrap;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.fang {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+  top: -9px;
+}
+
+.rowBorder {
+  border: 1px solid #dfe3e8;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}

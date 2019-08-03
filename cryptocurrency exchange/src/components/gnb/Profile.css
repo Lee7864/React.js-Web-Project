@@ -1,0 +1,102 @@
+.img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-top: 5px;
+  margin-right: 4px;
+}
+
+.chevron {
+  width : 16px;
+}
+
+.nickname {
+    padding-top: 8px;
+    padding-right: 4px;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+}
+
+a {
+    color: #212b36;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #212b36;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #212b36;
+    text-decoration: none;
+}
+
+li {
+    min-height: 0em;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 0px;  
+    color: #212b36;
+}
+
+.icon_myaccount {
+  width: 20px;
+  height: 20px;
+  margin-left: -12px;
+  margin-right: 6px;
+  background-size: cover;  
+  background: url('/images/myaccount/icon_myaccount.svg') no-repeat 0px 0px;
+}
+
+a:hover .icon_myaccount {
+  background-image: url('/images/myaccount/icon_myaccount_hover.svg');  
+}
+
+.icon_banking {
+  width: 20px;
+  height: 20px;
+  margin-left: -12px;
+  margin-right: 6px;
+  background-size: cover;  
+  background: url('/images/myaccount/icon_banking.svg') no-repeat 0px 0px;
+}
+
+a:hover .icon_banking {
+  background-image: url('/images/myaccount/icon_banking_hover.svg');  
+}
+
+.icon_authentication {
+  width: 20px;
+  height: 20px;
+  margin-left: -12px;
+  margin-right: 6px;
+  background-size: cover;  
+  background: url('/images/myaccount/icon_authentication.svg') no-repeat 0px 0px;
+}
+
+a:hover .icon_authentication {
+  background-image: url('/images/myaccount/icon_authentication_hover.svg');  
+}
+
+.icon_loginhistory {
+  width: 20px;
+  height: 20px;
+  margin-left: -12px;
+  margin-right: 6px;
+  background-size: cover;  
+  background: url('/images/myaccount/icon_loginhistory.svg') no-repeat 0px 0px;
+}
+
+a:hover .icon_loginhistory {
+  background-image: url('/images/myaccount/icon_loginhistory_hover.svg');  
+}
+
+.icon_logout {
+  width: 20px;
+  height: 20px;
+  margin-left: -12px;
+  margin-right: 6px;
+}
+
